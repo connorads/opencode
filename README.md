@@ -6,6 +6,10 @@
 
 Some remote MCP servers use an allowlist for OAuth client registration, which can prevent OpenCode from authenticating. This branch contains a workaround that allows OpenCode to authenticate with such servers.
 
+## How it works
+
+See the commit: https://github.com/connorads/opencode/commit/cbc7df7ceab07780934e2fc8825ad40147dadbc8
+
 Official support for these MCP servers is hopefully coming soon:
 
 - https://github.com/sst/opencode/issues/5636
